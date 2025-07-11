@@ -1,7 +1,7 @@
 {
   "Name": "SkyStationDrop",
   "SchemaVersion": 2.0,
-  "Url": "https://raw.githubusercontent.com/thebanditovh/MonumentAddons/refs/heads/main/SkyStationDrop",
+  "Url": "https://raw.githubusercontent.com/thebanditovh/MonumentAddons/refs/heads/main/SkyStationDrop.json",
   "MonumentData": {
     "power_sub_big_2": {
       "SpawnGroups": [
