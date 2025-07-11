@@ -38,192 +38,186 @@
             }
           ]
         },
-        "SpawnGroups",
-        ":",
-        [
-          {
-            "Id": "bf41d540-16e0-4edc-9ad2-acb1545eb353",
-            "Name": "supply_drop",
-            "MaxPopulation": 1,
-            "SpawnPerTickMin": 1,
-            "SpawnPerTickMax": 1,
-            "RespawnDelayMin": 3600.0,
-            "RespawnDelayMax": 7200.0,
-            "InitialSpawn": true,
-            "Prefabs": [
-              {
-                "PrefabName": "assets/prefabs/npc/patrol helicopter/heli_crate.prefab",
-                "Weight": 100
-              }
-            ],
-            "SpawnPoints": [
-              {
-                "Id": "8a5091f1-9eaa-406a-9bb2-11d816c18705",
-                "Position": {
-                  "x": 13.1499319,
-                  "y": 99.97197,
-                  "z": 8.507429
-                },
-                "RotationAngles": {
-                  "x": 0.0,
-                  "y": 181.86647,
-                  "z": 0.0
-                },
-                "Exclusive": true,
-                "SnapToGround": true
+        {
+          "Id": "bf41d540-16e0-4edc-9ad2-acb1545eb353",
+          "Name": "supply_drop",
+          "MaxPopulation": 1,
+          "SpawnPerTickMin": 1,
+          "SpawnPerTickMax": 1,
+          "RespawnDelayMin": 3600.0,
+          "RespawnDelayMax": 7200.0,
+          "InitialSpawn": true,
+          "Prefabs": [
+            {
+              "PrefabName": "assets/prefabs/npc/patrol helicopter/heli_crate.prefab",
+              "Weight": 100
+            }
+          ],
+          "SpawnPoints": [
+            {
+              "Id": "8a5091f1-9eaa-406a-9bb2-11d816c18705",
+              "Position": {
+                "x": 13.1499319,
+                "y": 99.97197,
+                "z": 8.507429
               },
-              {
-                "Id": "d88e4991-b77c-423b-a60e-7e48083b591f",
-                "Position": {
-                  "x": 14.5068579,
-                  "y": 100.029922,
-                  "z": 5.47115231
-                },
-                "RotationAngles": {
-                  "x": 0.0,
-                  "y": 121.415291,
-                  "z": 0.0
-                },
-                "Exclusive": true,
-                "SnapToGround": true
+              "RotationAngles": {
+                "x": 0.0,
+                "y": 181.86647,
+                "z": 0.0
               },
-              {
-                "Id": "16aa6c47-8087-46c4-86c7-52fb962f9331",
-                "Position": {
-                  "x": 11.1878157,
-                  "y": 99.9481354,
-                  "z": 5.723152
-                },
-                "RotationAngles": {
-                  "x": 0.0,
-                  "y": 64.04442,
-                  "z": 0.0
-                },
-                "Exclusive": true,
-                "SnapToGround": true
-              }
-            ]
+              "Exclusive": true,
+              "SnapToGround": true
+            },
+            {
+              "Id": "d88e4991-b77c-423b-a60e-7e48083b591f",
+              "Position": {
+                "x": 14.5068579,
+                "y": 100.029922,
+                "z": 5.47115231
+              },
+              "RotationAngles": {
+                "x": 0.0,
+                "y": 121.415291,
+                "z": 0.0
+              },
+              "Exclusive": true,
+              "SnapToGround": true
+            },
+            {
+              "Id": "16aa6c47-8087-46c4-86c7-52fb962f9331",
+              "Position": {
+                "x": 11.1878157,
+                "y": 99.9481354,
+                "z": 5.723152
+              },
+              "RotationAngles": {
+                "x": 0.0,
+                "y": 64.04442,
+                "z": 0.0
+              },
+              "Exclusive": true,
+              "SnapToGround": true
+            }
+          ]
+        },
+        {
+          "Id": "0743c3de-7b93-4812-931c-72fa3cf9d3cc",
+          "Name": "StationDropPoint",
+          "MaxPopulation": 6,
+          "SpawnPerTickMin": 6,
+          "SpawnPerTickMax": 10,
+          "RespawnDelayMin": 1500.0,
+          "RespawnDelayMax": 2100.0,
+          "InitialSpawn": true,
+          "Prefabs": [
+            {
+              "PrefabName": "assets/rust.ai/agents/npcplayer/humannpc/scientist/scientistnpc_heavy.prefab",
+              "Weight": 100
+            }
+          ],
+          "SpawnPoints": [
+            {
+              "Id": "f4abcf82-4afd-4e70-bc1e-9eea0cc0d63a",
+              "Position": {
+                "x": 15.2230072,
+                "y": 100.084641,
+                "z": 26.1607666
+              },
+              "RotationAngles": {
+                "x": 7.81653145E-11,
+                "y": 269.538422,
+                "z": 0.0007419141
+              },
+              "Exclusive": true,
+              "SnapToGround": true
+            },
+            {
+              "Id": "f4abcf82-4afd-4e70-bc1e-9eea0cc0d64a",
+              "Position": {
+                "x": 29.2785854,
+                "y": 100.097961,
+                "z": -5.39208651
+              },
+              "RotationAngles": {
+                "x": 1.74738872,
+                "y": 315.131317,
+                "z": 1.373903
+              },
+              "Exclusive": true,
+              "SnapToGround": true
+            },
+            {
+              "Id": "f4abcf82-4afd-4e70-bc1e-9eea0cc0d65a",
+              "Position": {
+                "x": 19.7326641,
+                "y": 100.203636,
+                "z": 1.6470654
+              },
+              "RotationAngles": {
+                "x": 351.1361,
+                "y": 269.53833,
+                "z": 0.00124818285
+              },
+              "Exclusive": true,
+              "SnapToGround": true
+            },
+            {
+              "Id": "f4abcf82-4afd-4e70-bc1e-9eea0cc0d66a",
+              "Position": {
+                "x": 8.5255,
+                "y": 100.0008,
+                "z": 4.806999
+              },
+              "RotationAngles": {
+                "x": 6.922299,
+                "y": 114.865509,
+                "z": 30.8146725
+              },
+              "Exclusive": true,
+              "SnapToGround": true
+            },
+            {
+              "Id": "f4abcf82-4afd-4e70-bc1e-9eea0cc0d67a",
+              "Position": {
+                "x": 7.497015,
+                "y": 100.107635,
+                "z": 10.5402946
+              },
+              "RotationAngles": {
+                "x": 351.1361,
+                "y": 269.53833,
+                "z": 0.00124818285
+              },
+              "Exclusive": true,
+              "SnapToGround": true
+            }
+          ]
+        }
+      ],
+      "Pastes": [
+        {
+          "Id": "3664e5f2-b079-4df9-9756-87b49595c8cb",
+          "Position": {
+            "x": 0.0,
+            "y": 0.0,
+            "z": 0.0
           },
-          {
-            "Id": "0743c3de-7b93-4812-931c-72fa3cf9d3cc",
-            "Name": "StationDropPoint",
-            "MaxPopulation": 6,
-            "SpawnPerTickMin": 6,
-            "SpawnPerTickMax": 10,
-            "RespawnDelayMin": 1500.0,
-            "RespawnDelayMax": 2100.0,
-            "InitialSpawn": true,
-            "Prefabs": [
-              {
-                "PrefabName": "assets/rust.ai/agents/npcplayer/humannpc/scientist/scientistnpc_heavy.prefab",
-                "Weight": 100
-              }
-            ],
-            "SpawnPoints": [
-              {
-                "Id": "f4abcf82-4afd-4e70-bc1e-9eea0cc0d63a",
-                "Position": {
-                  "x": 15.2230072,
-                  "y": 100.084641,
-                  "z": 26.1607666
-                },
-                "RotationAngles": {
-                  "x": 7.81653145E-11,
-                  "y": 269.538422,
-                  "z": 0.0007419141
-                },
-                "Exclusive": true,
-                "SnapToGround": true
-              },
-              {
-                "Id": "f4abcf82-4afd-4e70-bc1e-9eea0cc0d64a",
-                "Position": {
-                  "x": 29.2785854,
-                  "y": 100.097961,
-                  "z": -5.39208651
-                },
-                "RotationAngles": {
-                  "x": 1.74738872,
-                  "y": 315.131317,
-                  "z": 1.373903
-                },
-                "Exclusive": true,
-                "SnapToGround": true
-              },
-              {
-                "Id": "f4abcf82-4afd-4e70-bc1e-9eea0cc0d65a",
-                "Position": {
-                  "x": 19.7326641,
-                  "y": 100.203636,
-                  "z": 1.6470654
-                },
-                "RotationAngles": {
-                  "x": 351.1361,
-                  "y": 269.53833,
-                  "z": 0.00124818285
-                },
-                "Exclusive": true,
-                "SnapToGround": true
-              },
-              {
-                "Id": "f4abcf82-4afd-4e70-bc1e-9eea0cc0d66a",
-                "Position": {
-                  "x": 8.5255,
-                  "y": 100.0008,
-                  "z": 4.806999
-                },
-                "RotationAngles": {
-                  "x": 6.922299,
-                  "y": 114.865509,
-                  "z": 30.8146725
-                },
-                "Exclusive": true,
-                "SnapToGround": true
-              },
-              {
-                "Id": "f4abcf82-4afd-4e70-bc1e-9eea0cc0d67a",
-                "Position": {
-                  "x": 7.497015,
-                  "y": 100.107635,
-                  "z": 10.5402946
-                },
-                "RotationAngles": {
-                  "x": 351.1361,
-                  "y": 269.53833,
-                  "z": 0.00124818285
-                },
-                "Exclusive": true,
-                "SnapToGround": true
-              }
-            ]
-          }
-        ],
-        "Pastes",
-        ":",
-        [
-          {
-            "Id": "3664e5f2-b079-4df9-9756-87b49595c8cb",
-            "Position": {
-              "x": 0.0,
-              "y": 0.0,
-              "z": 0.0
-            },
-            "RotationAngles": {
-              "x": 0.0,
-              "y": 72.1404953,
-              "z": 0.0
-            },
-            "Filename": "Map/SkyStationDrop",
-            "Args": [
-              "autoheight",
-              "false",
-              "height",
-              "100",
-              "stability",
-              "false"
-            ]
-          }
-        ]
+          "RotationAngles": {
+            "x": 0.0,
+            "y": 72.1404953,
+            "z": 0.0
+          },
+          "Filename": "Map/SkyStationDrop",
+          "Args": [
+            "autoheight",
+            "false",
+            "height",
+            "100",
+            "stability",
+            "false"
+          ]
+        }
       ]
     }
   }
