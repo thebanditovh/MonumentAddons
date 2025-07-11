@@ -39,11 +39,11 @@
           ]
         },
         {
-          "Id": "bf41d540-16e0-4edc-9ad2-acb1545eb353",
-          "Name": "supply_drop",
-          "MaxPopulation": 1,
-          "SpawnPerTickMin": 1,
-          "SpawnPerTickMax": 1,
+          "Id": "bf41d540-16e0-4edc-9ad2-acb1545eb354",
+          "Name": "heli_crate",
+          "MaxPopulation": 3,
+          "SpawnPerTickMin": 3,
+          "SpawnPerTickMax": 3,
           "RespawnDelayMin": 3600.0,
           "RespawnDelayMax": 7200.0,
           "InitialSpawn": true,
